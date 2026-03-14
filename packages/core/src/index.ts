@@ -17,3 +17,10 @@ export {
   mergeGraphUpdate,
   type StalenessResult,
 } from "./staleness.js";
+export {
+  detectLayers,
+  buildLayerDetectionPrompt,
+  parseLayerDetectionResponse,
+  applyLLMLayers,
+} from "./analyzer/layer-detector.js";
+export type { LLMLayerResponse } from "./analyzer/layer-detector.js";
