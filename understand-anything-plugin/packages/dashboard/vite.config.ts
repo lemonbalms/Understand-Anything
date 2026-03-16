@@ -5,6 +5,13 @@ import path from "path";
 import fs from "fs";
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      "@understand-anything/core/schema": path.resolve(__dirname, "../core/dist/schema.js"),
+      "@understand-anything/core/search": path.resolve(__dirname, "../core/dist/search.js"),
+      "@understand-anything/core/types": path.resolve(__dirname, "../core/dist/types.js"),
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),
