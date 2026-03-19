@@ -110,7 +110,7 @@ Understand-Anything works across multiple AI coding platforms.
 
 Tell Codex:
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Understand-Anything/refs/heads/main/understand-anything-plugin/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Understand-Anything/refs/heads/main/.codex/INSTALL.md
 ```
 
 ### OpenCode
@@ -126,15 +126,12 @@ Add to your `opencode.json`:
 
 Tell OpenClaw:
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Understand-Anything/refs/heads/main/understand-anything-plugin/.openclaw/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Understand-Anything/refs/heads/main/.openclaw/INSTALL.md
 ```
 
 ### Cursor
 
-Tell Cursor:
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Understand-Anything/refs/heads/main/understand-anything-plugin/.cursor/INSTALL.md
-```
+Cursor auto-discovers the plugin via `.cursor-plugin/plugin.json` when this repo is cloned. No manual installation needed — just clone and open in Cursor.
 
 ### Platform Compatibility
 
@@ -144,7 +141,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/Lum1104/Und
 | Codex | ✅ Supported | AI-driven install |
 | OpenCode | ✅ Supported | Plugin config |
 | OpenClaw | ✅ Supported | AI-driven install |
-| Cursor | ✅ Supported | AI-driven install |
+| Cursor | ✅ Supported | Auto-discovery |
 
 ---
 
